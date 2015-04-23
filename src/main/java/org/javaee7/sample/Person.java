@@ -8,9 +8,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 public class Person {
     private String name;
-    private String lastName;
-    private String adresse;
-    private int age;
+
 
     public Person() {
     }
@@ -23,12 +21,5 @@ public class Person {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
 
-    @Override
-    public String toString() {
-        return name;
-    }
 }

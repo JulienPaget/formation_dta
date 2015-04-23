@@ -17,12 +17,7 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>    
-    <scm>
-        <connection>scm:git:https://github.com/javaee-samples/javaee7-simple-sample.git</connection>
-        <url>https://github.com/javaee-samples/javaee7-simple-sample.git</url>
-        <developerConnection>scm:git:https://github.com/javaee-samples/javaee7-simple-sample.git</developerConnection>
-        <tag>v1.5</tag>
-    </scm>
+   
     <developers>
         <developer>
             <name>Arun Gupta</name>
