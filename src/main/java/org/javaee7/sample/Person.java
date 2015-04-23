@@ -4,15 +4,13 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  * @author arungupta
-
- projet test dta aaaa
-
- sdddddddddddddddddddddddddddd
  */
 @XmlRootElement
 public class Person {
     private String name;
-    rivate String lastName;
+    private String lastName;
+    private String adresse;
+    private int age;
 
     public Person() {
     }
