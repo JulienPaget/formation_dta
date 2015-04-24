@@ -11,6 +11,8 @@ import javax.ws.rs.Produces;
 @Path("persons")
 public class PersonResource {
 
+    private int age;
+    
     @Inject
     PersonDatabase database;
 
