@@ -11,11 +11,13 @@ import javax.ws.rs.Produces;
 @Path("persons")
 public class PersonResource {
 
+    private int age;
+    
     @Inject
     PersonDatabase database;
 
     @GET
-    @Produces("application/xml")
+    @Produces("application/text-plain")
     public Person[] get() {
         return database.currentList();
     }
