@@ -15,7 +15,7 @@ public class PersonResource {
     PersonDatabase database;
 
     @GET
-    @Produces("application/xml")
+    @Produces("application/json")
     public Person[] get() {
         return database.currentList();
     }
