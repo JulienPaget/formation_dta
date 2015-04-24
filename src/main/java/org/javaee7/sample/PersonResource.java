@@ -28,11 +28,4 @@ public class PersonResource {
     public Person get(@PathParam("id") int id) {
         return database.getPerson(id);
     }
-
-    @GET
-    @Path("{id}")
-    @Produces("application/xml")
-    public Person get(@PathParam("id") int id) {
-        return database.getPerson(id);
-    }
 }

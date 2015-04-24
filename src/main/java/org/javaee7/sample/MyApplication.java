@@ -9,7 +9,8 @@ import javax.ws.rs.core.Application;
 @ApplicationPath("/jjjjjjjjjjjjjjjjjjjjjjj")
 
 public class MyApplication extends Application {
-
+	public int age;
+	private String prenom;
 
 
 }
